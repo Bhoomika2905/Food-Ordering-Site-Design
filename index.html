@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image" href="profile.png">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js" integrity="sha512-gAHP1RIzRzolApS3+PI5UkCtoeBpdxBAtxEPsyqvsPN950Q7oD+UT2hafrcFoF04oshCGLqcSgR5dhUthCcjdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.js" integrity="sha512-wGSqIPlojEqG8khYguoHUx1nfYeECuZ2+fQhEn+O++QYp4Lc86lk49X7TsZcmFmac2GEJXZx8I47XBHxsF6rfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;900&family=Outfit&family=Sacramento&family=Sarabun:wght@200;300;800&family=Ubuntu&display=swap" rel="stylesheet">
+    <!--Font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> 
+</head>
+<body>
+    <!--Navigation bar-->
+    <div class="home-section">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="" id="logo">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Projects
+                    </a>
+                    <div class="dropdown-menu men" aria-labelledby="navbarDropdown" style="background-color: #090910;">
+                      <a class="dropdown-item" id="DP" href="index3.html" target="_blank">Tindog</a>
+                      <a class="dropdown-item" id="DP" href="index2.html" target="_blank">I❤️BURGER</a>
+                      <a class="dropdown-item" id="DP" href="index1.html" target="_blank">Portfolio</a>
+                      <a class="dropdown-item" id="DP" href="https://drive.google.com/drive/folders/1i13a0_aCc9t7csuTf7MlV2IdDS76pAnG?usp=share_link" target="_blank">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                    <a href="bhoomi resume.pdf" target="_blank" download>
+                        <button id="btncv">VIEW CV</button>
+                      </a>
+              </div>
+            </div>
+          </nav>
+    <!--Home content-->
+    <div class="home">
+        <div class="content">
+            <h4>Hello</h4>
+            <h3>I'm <span>Bhoomika</span></h3>
+            <h2 class="changecontent"></h2>
+            <p>B.Tech student at
+                <br>MS Ramaiah University of Applied Sciences.
+            </p>
+            <a href="#contact"><button id="btn1">HIRE ME</button></a>
+        </div>
+        <div class="img" id="imagee">
+            <img src="profil.png" alt="">
+        </div>
+    </div>
+<!-- about -->
+<div id="about">
+    <div class="container"  data-aos="fade-up"
+    data-aos-duration="1500">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img id="img2" src="abo.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-8 py-3 py-md-0">
+                <h3>About Me</h3>
+                <p>I am a driven, ambitious person that has a strong interest for the IT sector. At MS Ramaiah University of Applied Sciences, I am now enrolled in my third year of a B.Tech. in Computer Science and Engineering programme. I can engage with a variety of clients because I have outstanding interpersonal skills in addition to strong technical abilities. In order to develop and enhance my IT skills, I am eager for challenges. My greatest interest in life is helping other people and organizations through the use of my technical knowledge.</p>
+                <h2 >Name: <span id="a1">N Bhoomika</span></h2>
+                <h2 >Address: <span id="a2">Bangalore, India</span></h2>
+                <h2 >Email: <span id="a3">bhoomika.n2905@gmail.com</span></h2>
+                <a href="bhoomi resume.pdf" target="_blank" download>
+                  <button id="btncv2">VIEW CV</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- resume -->
+<div id="resume">
+    <div class="container"  data-aos="fade-up"
+    data-aos-duration="1500">
+        <h4 class="text-center">RESUME</h4>
+        <div class="container">
+            <div class="hr" style="margin-top: 30px;width: 1090px; "></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0" id="ed">
+                <h3><i class="fa-solid fa-graduation-cap"></i>Education</h3>
+                <h2>B.Tech [Computer Science Engineering]</h2>
+                <p>MS Ramaiah University of Applied Sciences</p>
+                <i class="fa-solid fa-building">  2020 - 2024</i>
+
+                <h2>PUC</h2>
+                <p>KLE Independent PU College</p>
+                <i class="fa-solid fa-building">  2018-2020</i>
+                    
+                <h2>SSLC</h2>
+                <p>Sri Vani Educaion Centre</p>
+                <i class="fa-solid fa-building">  2018</i>
+
+            </div>
+            
+            <div class="col-md-6 py-3 py-md-0" id="ed">
+                <h3><i class="fa-solid fa-briefcase"></i>Projects</h3>
+                <h2>Tindog</h2>
+                <a class="linking" href="index3.html" target="_blank">click</a>       
+                <h2>I❤️BURGER</h2>
+                <a class="linking" href="index2.html" target="_blank">click</a>
+                <h2>Portfolio</h2>
+                <a class="linking" href="index1.html" target="_blank">click</a>
+                <h2>Academic Projects</h2>
+                <a class="linking" href="https://drive.google.com/drive/folders/1i13a0_aCc9t7csuTf7MlV2IdDS76pAnG?usp=share_link" target="_blank">click</a>
+            </div>
+            <div class="hr" style="margin-top: 30px; width: 1100px;margin-left: 20px;"></div>
+        </div>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+
+    <div class="container" style="padding-top: 30px;"  data-aos="fade-up"
+    data-aos-duration="1500">
+        
+        <div class="row">
+
+            <div class="col-md-7 py-3 py-md-0">
+                <h1>Contact Me</h1>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea cols="50" rows="3" placeholder="Message"></textarea>
+                    <button id="btncontact">Send</button>
+                </p>
+            </div>
+            <div class="col-md-5 py-3 py-md-0">
+                <h1>Info</h1>
+                <i class="fa-solid fa-envelope"> <span>bhoomika.n2905@gmail.com</span></i>
+                <i class="fa-solid fa-house"> <span>Bangalore, India</span></i>
+
+                <div class="social-links">
+                    <a class="mailid" href="mailto:bhoomika.n2905@gmail.com"><i class="fa-solid fa-envelope iconing" style="color: lightgray"></i></a>
+                    <a href="https://www.linkedin.com/in/bhoomika-n-49a553208/"><i class="fa-brands fa-linkedin iconing"  style="color: lightgray"></i></a>
+                    <a href="https://instagram.com/bhoomi_ash29?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram iconing"  style="color: lightgray"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<footer id="footer">
+    <h1 class="text-center">Portfolio</h1>
+    <div class="icons text-center">
+        <a class="mailid" href="mailto:bhoomika.n2905@gmail.com"><i class="fa-solid fa-envelope iconing icj" style="color: black"></i></a>
+        <a href="https://www.linkedin.com/in/bhoomika-n-49a553208/"><i class="fa-brands fa-linkedin iconing icj"  style="color: black"></i></a>
+        <a href="https://instagram.com/bhoomi_ash29?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram iconing icj"  style="color: black"></i></a>
+    </div>
+    <div class="copyright text-center">
+        &copy; <strong>Copyright N Bhoomika.All Rights Reserved</strong>
+    </div>
+    <a href="#" class="arrow"><i class="fa-solid fa-arrow-up"></i></a>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
